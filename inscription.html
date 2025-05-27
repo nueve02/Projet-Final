@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BoostReach | Connexion & Inscription</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+
+  <section class="auth-section">
+    <div class="auth-container">
+
+      
+      <div class="auth-box">
+        <h3>Connexion</h3>
+        <form>
+          <div class="form-group">
+            <label for="loginEmail">Adresse email</label>
+            <input type="email" class="form-control" id="loginEmail" placeholder="Votre email" required />
+          </div>
+          <div class="form-group">
+            <label for="loginPassword">Mot de passe</label>
+            <input type="password" class="form-control" id="loginPassword" placeholder="Votre mot de passe" required />
+          </div>
+          <button type="submit" class="btn btn-success btn-block">Se connecter</button>
+        </form>
+      </div>
+
+      
+      <div class="auth-box">
+        <h3>Inscription</h3>
+        <form>
+          <div class="form-group">
+            <label for="signupName">Nom complet</label>
+            <input type="text" class="form-control" id="signupName" placeholder="Votre nom" required />
+          </div>
+          <div class="form-group">
+            <label for="signupEmail">Adresse email</label>
+            <input type="email" class="form-control" id="signupEmail" placeholder="Votre email" required />
+          </div>
+          <div class="form-group">
+            <label for="signupPassword">Mot de passe</label>
+            <input type="password" class="form-control" id="signupPassword" placeholder="Créer un mot de passe" required />
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">S'inscrire</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
